@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{D6E13CB9-536A-4EEE-8258-686FDADF21DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectInitial", "ProjectInitial", "{571BFEA1-6330-4923-A0B2-F5830415A1F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusLogic", "BusLogic", "{A8F888BA-FBF8-48CC-9152-CF193ECAA5AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{079B9806-6A14-4E5C-AC5C-51AA3CF8E187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseEquips", "BaseEquips", "{2385692A-3425-4006-900F-7BA1A18C423C}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE290DB9-F880-45C6-AA9D-1D1E8BDCBE7D}
+	EndGlobalSection
+EndGlobal
