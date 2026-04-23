@@ -1,12 +1,155 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\C#_code\\Wuye\\PMS_Client\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\C#_code\\PMS\\PMS_Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{680EEC6B-6FD6-4C1A-8462-B24BBD13B371}|PMS.Client.Assets\\PMS.Client.Assets.csproj|e:\\c#_code\\pms\\pms_client\\pms.client.assets\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680EEC6B-6FD6-4C1A-8462-B24BBD13B371}|PMS.Client.Assets\\PMS.Client.Assets.csproj|solutionrelative:pms.client.assets\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB111108-EA08-4979-B7F9-B77F7B3B5E37}|PMS.Client.DAL\\PMS.Client.DAL.csproj|e:\\c#_code\\pms\\pms_client\\pms.client.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB111108-EA08-4979-B7F9-B77F7B3B5E37}|PMS.Client.DAL\\PMS.Client.DAL.csproj|solutionrelative:pms.client.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F726226D-1E99-4663-A657-5CFE609AA8BF}|PMS.Client.IDAL\\PMS.Client.IDAL.csproj|e:\\c#_code\\pms\\pms_client\\pms.client.idal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F726226D-1E99-4663-A657-5CFE609AA8BF}|PMS.Client.IDAL\\PMS.Client.IDAL.csproj|solutionrelative:pms.client.idal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD024049-AB6E-4583-90C4-C0A39AC134CD}|PMS.Client.Bll\\PMS.Client.Bll.csproj|e:\\c#_code\\pms\\pms_client\\pms.client.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD024049-AB6E-4583-90C4-C0A39AC134CD}|PMS.Client.Bll\\PMS.Client.Bll.csproj|solutionrelative:pms.client.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCD0257-49DB-4050-9D18-562A4FB9FE48}|PMS.Client.IBll\\PMS.Client.IBll.csproj|e:\\c#_code\\pms\\pms_client\\pms.client.ibll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CCD0257-49DB-4050-9D18-562A4FB9FE48}|PMS.Client.IBll\\PMS.Client.IBll.csproj|solutionrelative:pms.client.ibll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98807C70-18C3-4611-B31A-040D8FAC39C5}|PMS.Client.FileModule\\PMS.Client.FileModule.csproj|e:\\c#_code\\pms\\pms_client\\pms.client.filemodule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98807C70-18C3-4611-B31A-040D8FAC39C5}|PMS.Client.FileModule\\PMS.Client.FileModule.csproj|solutionrelative:pms.client.filemodule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6183DA-EE37-4B6A-83C3-14FE3669A59D}|PMS.Client.Initial\\PMS.Client.Initial.csproj|e:\\c#_code\\pms\\pms_client\\pms.client.initial\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B6183DA-EE37-4B6A-83C3-14FE3669A59D}|PMS.Client.Initial\\PMS.Client.Initial.csproj|solutionrelative:pms.client.initial\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6183DA-EE37-4B6A-83C3-14FE3669A59D}|PMS.Client.Initial\\PMS.Client.Initial.csproj|e:\\c#_code\\pms\\pms_client\\pms.client.initial\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B6183DA-EE37-4B6A-83C3-14FE3669A59D}|PMS.Client.Initial\\PMS.Client.Initial.csproj|solutionrelative:pms.client.initial\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\Class1.cs",
+              "RelativeDocumentMoniker": "PMS.Client.Assets\\Class1.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\Class1.cs",
+              "RelativeToolTip": "PMS.Client.Assets\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:22:51.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "PMS.Client.DAL\\Class1.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.DAL\\Class1.cs",
+              "RelativeToolTip": "PMS.Client.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:22:20.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\Class1.cs",
+              "RelativeDocumentMoniker": "PMS.Client.IDAL\\Class1.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\Class1.cs",
+              "RelativeToolTip": "PMS.Client.IDAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:22:01.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\Class1.cs",
+              "RelativeDocumentMoniker": "PMS.Client.Bll\\Class1.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\Class1.cs",
+              "RelativeToolTip": "PMS.Client.Bll\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:18:02.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\Class1.cs",
+              "RelativeDocumentMoniker": "PMS.Client.IBll\\Class1.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\Class1.cs",
+              "RelativeToolTip": "PMS.Client.IBll\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:17:48.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.FileModule\\Class1.cs",
+              "RelativeDocumentMoniker": "PMS.Client.FileModule\\Class1.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.FileModule\\Class1.cs",
+              "RelativeToolTip": "PMS.Client.FileModule\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:17:20.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PMS.Client.Initial\\MainWindow.xaml",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\MainWindow.xaml",
+              "RelativeToolTip": "PMS.Client.Initial\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-23T11:12:45.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PMS.Client.Initial\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PMS.Client.Initial\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:12:42.923Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

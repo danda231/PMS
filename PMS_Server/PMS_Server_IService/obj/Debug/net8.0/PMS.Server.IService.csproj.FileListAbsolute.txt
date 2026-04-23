@@ -1,0 +1,12 @@
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\bin\Debug\net8.0\PMS.Server.IService.deps.json
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\bin\Debug\net8.0\PMS.Server.IService.dll
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\bin\Debug\net8.0\PMS.Server.IService.pdb
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.AssemblyInfoInputs.cache
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.AssemblyInfo.cs
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.csproj.CoreCompileInputs.cache
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.sourcelink.json
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.dll
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\refint\PMS.Server.IService.dll
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.pdb
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\ref\PMS.Server.IService.dll

@@ -1,0 +1,12 @@
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.AssemblyInfoInputs.cache
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.AssemblyInfo.cs
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.csproj.CoreCompileInputs.cache
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.sourcelink.json
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\bin\Debug\net8.0\PMS.Server.Entities.deps.json
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\bin\Debug\net8.0\PMS.Server.Entities.dll
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\bin\Debug\net8.0\PMS.Server.Entities.pdb
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.dll
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\refint\PMS.Server.Entities.dll
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.pdb
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\ref\PMS.Server.Entities.dll

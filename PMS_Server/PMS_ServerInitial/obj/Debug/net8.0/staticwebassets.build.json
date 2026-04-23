@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D4S59mApBlIKwTwNFueG5QoVQh/J0Csia8D3Pi1EaA0=",
+  "Source": "PMS.ServerInitial",
+  "BasePath": "_content/PMS.ServerInitial",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

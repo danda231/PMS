@@ -1,12 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\C#_code\\Wuye\\PMS_Server\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\C#_code\\PMS\\PMS_Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4FBEC8-84B1-4F5C-80DB-C3B3F980B1C3}|PMS.Server.Entities\\PMS.Server.Entities.csproj|e:\\c#_code\\pms\\pms_server\\pms.server.entities\\sysemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F4FBEC8-84B1-4F5C-80DB-C3B3F980B1C3}|PMS.Server.Entities\\PMS.Server.Entities.csproj|solutionrelative:pms.server.entities\\sysemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F365C6-BD78-4879-908D-9CC1930A573E}|PMS_ServerInitial\\PMS.ServerInitial.csproj|e:\\c#_code\\pms\\pms_server\\pms_serverinitial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F365C6-BD78-4879-908D-9CC1930A573E}|PMS_ServerInitial\\PMS.ServerInitial.csproj|solutionrelative:pms_serverinitial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F365C6-BD78-4879-908D-9CC1930A573E}|PMS_ServerInitial\\PMS.ServerInitial.csproj|e:\\c#_code\\pms\\pms_server\\pms_serverinitial\\pms.serverinitial.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F6F365C6-BD78-4879-908D-9CC1930A573E}|PMS_ServerInitial\\PMS.ServerInitial.csproj|solutionrelative:pms_serverinitial\\pms.serverinitial.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{397477D7-21D0-4140-9A21-945A217D22E6}|PMS.Server.Service\\PMS.Server.Service.csproj|e:\\c#_code\\pms\\pms_server\\pms.server.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{397477D7-21D0-4140-9A21-945A217D22E6}|PMS.Server.Service\\PMS.Server.Service.csproj|solutionrelative:pms.server.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D60AD1DA-630A-4935-9D03-3ACD487CC009}|PMS_Server_IService\\PMS.Server.IService.csproj|e:\\c#_code\\pms\\pms_server\\pms_server_iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D60AD1DA-630A-4935-9D03-3ACD487CC009}|PMS_Server_IService\\PMS.Server.IService.csproj|solutionrelative:pms_server_iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68961C36-F86B-4AC6-803E-780FB7684889}|PMS.Server.Common\\PMS.Server.Common.csproj|e:\\c#_code\\pms\\pms_server\\pms.server.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68961C36-F86B-4AC6-803E-780FB7684889}|PMS.Server.Common\\PMS.Server.Common.csproj|solutionrelative:pms.server.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PMS.ServerInitial",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Server\\PMS_ServerInitial\\PMS.ServerInitial.csproj",
+              "RelativeDocumentMoniker": "PMS_ServerInitial\\PMS.ServerInitial.csproj",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Server\\PMS_ServerInitial\\PMS.ServerInitial.csproj",
+              "RelativeToolTip": "PMS_ServerInitial\\PMS.ServerInitial.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T15:32:15.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Server\\PMS_ServerInitial\\Program.cs",
+              "RelativeDocumentMoniker": "PMS_ServerInitial\\Program.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Server\\PMS_ServerInitial\\Program.cs",
+              "RelativeToolTip": "PMS_ServerInitial\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:26:52.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Server\\PMS_Server_IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "PMS_Server_IService\\IUserService.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Server\\PMS_Server_IService\\IUserService.cs",
+              "RelativeToolTip": "PMS_Server_IService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:25:43.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Server\\PMS.Server.Common\\Class1.cs",
+              "RelativeDocumentMoniker": "PMS.Server.Common\\Class1.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Server\\PMS.Server.Common\\Class1.cs",
+              "RelativeToolTip": "PMS.Server.Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:10:47.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SysEmployee.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Server\\PMS.Server.Entities\\SysEmployee.cs",
+              "RelativeDocumentMoniker": "PMS.Server.Entities\\SysEmployee.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Server\\PMS.Server.Entities\\SysEmployee.cs*",
+              "RelativeToolTip": "PMS.Server.Entities\\SysEmployee.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:09:05.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\C#_code\\PMS\\PMS_Server\\PMS.Server.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "PMS.Server.Service\\UserService.cs",
+              "ToolTip": "E:\\C#_code\\PMS\\PMS_Server\\PMS.Server.Service\\UserService.cs",
+              "RelativeToolTip": "PMS.Server.Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:07:24.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
