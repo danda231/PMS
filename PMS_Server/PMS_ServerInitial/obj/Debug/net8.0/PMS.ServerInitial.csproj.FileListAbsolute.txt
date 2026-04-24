@@ -109,3 +109,8 @@ E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\runtimes\win\lib\ne
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Entities.dll
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Entities.pdb
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.IService.dll
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.IService.pdb
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\PMS.ServerInitial.MvcApplicationPartsAssemblyInfo.cs
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Service.dll
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Service.pdb

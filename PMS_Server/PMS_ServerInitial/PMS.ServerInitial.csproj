@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PMS.Server.Entities\PMS.Server.Entities.csproj" />
+    <ProjectReference Include="..\PMS.Server.Service\PMS.Server.Service.csproj" />
     <ProjectReference Include="..\PMS_Server_IService\PMS.Server.IService.csproj" />
   </ItemGroup>
 

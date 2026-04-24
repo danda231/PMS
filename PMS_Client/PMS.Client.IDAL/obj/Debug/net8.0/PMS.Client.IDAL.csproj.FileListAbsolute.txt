@@ -1,0 +1,12 @@
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\bin\Debug\net8.0\PMS.Client.IDAL.deps.json
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\bin\Debug\net8.0\PMS.Client.IDAL.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\bin\Debug\net8.0\PMS.Client.IDAL.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\PMS.Client.IDAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\PMS.Client.IDAL.AssemblyInfoInputs.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\PMS.Client.IDAL.AssemblyInfo.cs
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\PMS.Client.IDAL.csproj.CoreCompileInputs.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\PMS.Client.IDAL.sourcelink.json
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\PMS.Client.IDAL.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\refint\PMS.Client.IDAL.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\PMS.Client.IDAL.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.IDAL\obj\Debug\net8.0\ref\PMS.Client.IDAL.dll

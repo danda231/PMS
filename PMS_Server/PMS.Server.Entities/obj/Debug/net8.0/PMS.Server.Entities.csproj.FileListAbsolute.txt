@@ -10,3 +10,4 @@ E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entiti
 E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\refint\PMS.Server.Entities.dll
 E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.pdb
 E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\ref\PMS.Server.Entities.dll
+E:\C#_code\PMS\PMS_Server\PMS.Server.Entities\obj\Debug\net8.0\PMS.Server.Entities.csproj.AssemblyReference.cache

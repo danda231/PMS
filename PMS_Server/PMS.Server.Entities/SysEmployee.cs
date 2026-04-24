@@ -1,8 +1,11 @@
-﻿namespace PMS.Server.Entities
+﻿using SqlSugar;
+
+namespace PMS.Server.Entities
 {
+    [SugarTable("sysemployee")]
     public class SysEmployee
     {
-        //[SugarColumn(IsPrimaryKey = true)]
+        [SugarColumn(IsPrimaryKey = true)]
         public int EId { get; set; }
 
         public string UserName { get; set; }

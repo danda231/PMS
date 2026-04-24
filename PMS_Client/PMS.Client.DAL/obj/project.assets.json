@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "PMS.Client.IDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PMS.Client.IDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PMS.Client.IDAL.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PMS.Client.IDAL/1.0.0": {
+      "type": "project",
+      "path": "../PMS.Client.IDAL/PMS.Client.IDAL.csproj",
+      "msbuildProject": "../PMS.Client.IDAL/PMS.Client.IDAL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "PMS.Client.IDAL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\14249\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj": {
+              "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

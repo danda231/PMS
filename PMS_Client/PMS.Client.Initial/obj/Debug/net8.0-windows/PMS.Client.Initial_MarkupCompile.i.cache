@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\App.xaml
-11407045341
+21577743027
 
-62060188117
-1981124507420
-MainWindow.xaml;
+91067481878
+212-1415962249
+Views\LoginView.xaml;Views\MainView.xaml;
 
-False
+True
 

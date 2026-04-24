@@ -10,3 +10,7 @@ E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IServi
 E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\refint\PMS.Server.IService.dll
 E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.pdb
 E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\ref\PMS.Server.IService.dll
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\bin\Debug\net8.0\PMS.Server.Entities.dll
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\bin\Debug\net8.0\PMS.Server.Entities.pdb
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Server.IService.csproj.AssemblyReference.cache
+E:\C#_code\PMS\PMS_Server\PMS_Server_IService\obj\Debug\net8.0\PMS.Serv.74DF73B6.Up2Date

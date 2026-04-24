@@ -50,6 +50,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.214, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -178,7 +184,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\C#_code\\PMS\\PMS_Server\\PMS.Server.Entities\\PMS.Server.Entities.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Server\\PMS.Server.Entities\\PMS.Server.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

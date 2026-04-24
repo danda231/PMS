@@ -1,0 +1,16 @@
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\bin\Debug\net8.0\PMS.Client.DAL.deps.json
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\bin\Debug\net8.0\PMS.Client.DAL.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\bin\Debug\net8.0\PMS.Client.DAL.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\bin\Debug\net8.0\PMS.Client.IDAL.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\bin\Debug\net8.0\PMS.Client.IDAL.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.csproj.AssemblyReference.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.AssemblyInfoInputs.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.AssemblyInfo.cs
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.csproj.CoreCompileInputs.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.sourcelink.json
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Clie.494BD13C.Up2Date
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\refint\PMS.Client.DAL.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\ref\PMS.Client.DAL.dll

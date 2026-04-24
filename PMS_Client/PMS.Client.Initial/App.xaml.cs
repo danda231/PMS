@@ -1,14 +1,40 @@
-﻿using System.Configuration;
+﻿using PMS.Client.Bll;
+using PMS.Client.DAL;
+using PMS.Client.IBll;
+using PMS.Client.IDAL;
+using PMS.Client.Initial.ViewMmodels;
+using PMS.Client.Initial.Views;
+using System.Configuration;
 using System.Data;
 using System.Windows;
+
 
 namespace PMS.Client.Initial
 {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : Application
+    public partial class App : PrismApplication
     {
+        protected override Window CreateShell()
+        {
+            return Container.Resolve<MainView>();
+        }
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            // 可视化绑定
+            containerRegistry.RegisterForNavigation<MainView, MainViewModel>();
+            containerRegistry.RegisterDialog<LoginView, LoginViewModel>();
+
+            // Service绑定
+            containerRegistry.Register<IUserService, UserService>();
+            containerRegistry.Register<IFileService,FileService>();
+
+
+            // Access绑定
+            containerRegistry.Register<IUserAccess, UserAccess>();
+            containerRegistry.Register<IFileAccess, FileAccess>();
+        }
     }
 
 }

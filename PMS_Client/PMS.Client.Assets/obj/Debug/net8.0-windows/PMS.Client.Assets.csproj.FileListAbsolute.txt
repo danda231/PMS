@@ -1,0 +1,12 @@
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\bin\Debug\net8.0-windows\PMS.Client.Assets.deps.json
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\bin\Debug\net8.0-windows\PMS.Client.Assets.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\bin\Debug\net8.0-windows\PMS.Client.Assets.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.AssemblyInfoInputs.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.AssemblyInfo.cs
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.csproj.CoreCompileInputs.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.sourcelink.json
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\refint\PMS.Client.Assets.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\ref\PMS.Client.Assets.dll

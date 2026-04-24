@@ -1159,6 +1159,9 @@
       "PMS.Server.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SqlSugarCore": "5.1.4.214"
+        },
         "compile": {
           "bin/placeholder/PMS.Server.Entities.dll": {}
         },
@@ -1169,6 +1172,9 @@
       "PMS.Server.IService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "PMS.Server.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/PMS.Server.IService.dll": {}
         },
