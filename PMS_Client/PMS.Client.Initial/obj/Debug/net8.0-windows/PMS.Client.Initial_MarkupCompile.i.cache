@@ -1,7 +1,7 @@
 ﻿PMS.Client.Initial
 1.0.0.0
 
-winexe
+exe
 C#
 .cs
 E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\obj\Debug\net8.0-windows\
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\App.xaml
-21577743027
+3-37917456
 
-91067481878
-212-1415962249
-Views\LoginView.xaml;Views\MainView.xaml;
+11-1497822251
+2141579561061
+Views\DialogWindow.xaml;Views\LoginView.xaml;Views\MainView.xaml;
 
 True
 

@@ -165,12 +165,26 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "PMS.Client.Assets/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PMS.Client.Assets.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PMS.Client.Assets.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "PMS.Client.Bll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "PMS.Client.IBll": "1.0.0",
-          "PMS.Client.IDAL": "1.0.0"
+          "PMS.Client.IDAL": "1.0.0",
+          "PMS.Client.Utils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PMS.Client.Bll.dll": {}
@@ -224,6 +238,19 @@
         "runtime": {
           "bin/placeholder/PMS.Client.IDAL.dll": {}
         }
+      },
+      "PMS.Client.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PMS.Client.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PMS.Client.Utils.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -465,6 +492,11 @@
         "prism.wpf.nuspec"
       ]
     },
+    "PMS.Client.Assets/1.0.0": {
+      "type": "project",
+      "path": "../PMS.Client.Assets/PMS.Client.Assets.csproj",
+      "msbuildProject": "../PMS.Client.Assets/PMS.Client.Assets.csproj"
+    },
     "PMS.Client.Bll/1.0.0": {
       "type": "project",
       "path": "../PMS.Client.Bll/PMS.Client.Bll.csproj",
@@ -489,10 +521,16 @@
       "type": "project",
       "path": "../PMS.Client.IDAL/PMS.Client.IDAL.csproj",
       "msbuildProject": "../PMS.Client.IDAL/PMS.Client.IDAL.csproj"
+    },
+    "PMS.Client.Utils/1.0.0": {
+      "type": "project",
+      "path": "../PMS.Client.Utils/PMS.Client.Utils.csproj",
+      "msbuildProject": "../PMS.Client.Utils/PMS.Client.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "PMS.Client.Assets >= 1.0.0",
       "PMS.Client.Bll >= 1.0.0",
       "PMS.Client.DAL >= 1.0.0",
       "PMS.Client.IBll >= 1.0.0",
@@ -533,6 +571,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\PMS.Client.Assets.csproj": {
+              "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\PMS.Client.Assets.csproj"
+            },
             "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\PMS.Client.Bll.csproj": {
               "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\PMS.Client.Bll.csproj"
             },

@@ -25,9 +25,10 @@ namespace PMS.Client.Upgrade.Views
             InitializeComponent();
         }
 
-        private void btn_Click(object sender, RoutedEventArgs e)
+        private void Btn_Exit(object sender, RoutedEventArgs e)
         {
             this.Close();
+            //Environment.Exit(0);
         }
     }
 }

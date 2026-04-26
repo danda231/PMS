@@ -2,7 +2,7 @@
 using PMS.Client.DAL;
 using PMS.Client.IBll;
 using PMS.Client.IDAL;
-using PMS.Client.Initial.ViewMmodels;
+using PMS.Client.Initial.ViewModels;
 using PMS.Client.Initial.Views;
 using System.Configuration;
 using System.Data;
@@ -25,6 +25,7 @@ namespace PMS.Client.Initial
             // 可视化绑定
             containerRegistry.RegisterForNavigation<MainView, MainViewModel>();
             containerRegistry.RegisterDialog<LoginView, LoginViewModel>();
+            containerRegistry.RegisterDialog<PMS.Client.Initial.ViewModels.DialogWindow>();
 
             // Service绑定
             containerRegistry.Register<IUserService, UserService>();

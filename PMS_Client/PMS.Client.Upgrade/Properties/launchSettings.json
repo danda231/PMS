@@ -2,7 +2,7 @@
   "profiles": {
     "PMS.Client.Upgrade": {
       "commandName": "Project",
-      "commandLineArgs": "PMS.Client.Bll.dll|UpgradeFiles|100\r\nPMS.Client.Bll.dll|UpgradeFiles|100\r\nPMS.Client.Bll.dll|UpgradeFiles|100"
+      "commandLineArgs": "PMS.Client.Bll.dll|Modules|100|asdasd"
     }
   }
 }

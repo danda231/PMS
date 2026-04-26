@@ -10,6 +10,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PMS.ServerInitial.Controllers.FileController",
+    "Method": "DownLoad",
+    "RelativePath": "api/File/download/{p}/{file}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PMS.ServerInitial.Controllers.UserController",
     "Method": "Get",
     "RelativePath": "api/User",
@@ -29,26 +50,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PMS_ServerInitial.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[PMS.ServerInitial.WeatherForecast, PMS.ServerInitial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

@@ -3,11 +3,9 @@ E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\bin\Debug\net8.0-windows\PMS.Client
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\bin\Debug\net8.0-windows\PMS.Client.Upgrade.runtimeconfig.json
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\bin\Debug\net8.0-windows\PMS.Client.Upgrade.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\bin\Debug\net8.0-windows\PMS.Client.Upgrade.pdb
-E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\MainWindow.g.cs
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\App.g.cs
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\PMS.Client.Upgrade_MarkupCompile.cache
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\PMS.Client.Upgrade_MarkupCompile.lref
-E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\MainWindow.baml
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\PMS.Client.Upgrade.g.resources
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\PMS.Client.Upgrade.GeneratedMSBuildEditorConfig.editorconfig
 E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\PMS.Client.Upgrade.AssemblyInfoInputs.cache

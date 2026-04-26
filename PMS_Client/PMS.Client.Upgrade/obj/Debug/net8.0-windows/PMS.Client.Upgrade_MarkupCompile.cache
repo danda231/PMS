@@ -1,20 +1,20 @@
 ﻿PMS.Client.Upgrade
-
+1.0.0.0
 
 winexe
 C#
 .cs
-E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\
+e:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\obj\Debug\net8.0-windows\
 PMS.Client.Upgrade
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-E:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\App.xaml
-2-1631076219
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+e:\C#_code\PMS\PMS_Client\PMS.Client.Upgrade\App.xaml
+11256845736
 
-7-744612789
-1981124507420
-MainWindow.xaml;Views\MainView.xaml;
+112084516723
+198-363253422
+Views\MainView.xaml;
 
-False
+True
 

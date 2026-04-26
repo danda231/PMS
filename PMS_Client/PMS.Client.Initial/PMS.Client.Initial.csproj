@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -9,14 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PMS.Client.Assets\PMS.Client.Assets.csproj" />
     <ProjectReference Include="..\PMS.Client.Bll\PMS.Client.Bll.csproj" />
     <ProjectReference Include="..\PMS.Client.DAL\PMS.Client.DAL.csproj" />
     <ProjectReference Include="..\PMS.Client.IBll\PMS.Client.IBll.csproj" />

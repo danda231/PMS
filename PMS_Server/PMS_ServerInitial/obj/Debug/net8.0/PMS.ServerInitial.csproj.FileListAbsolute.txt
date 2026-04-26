@@ -114,3 +114,5 @@ E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.IService
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\PMS.ServerInitial.MvcApplicationPartsAssemblyInfo.cs
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Service.dll
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Service.pdb
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Models.dll
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Models.pdb

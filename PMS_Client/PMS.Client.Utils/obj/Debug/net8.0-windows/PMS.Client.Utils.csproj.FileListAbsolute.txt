@@ -1,0 +1,12 @@
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\bin\Debug\net8.0-windows\PMS.Client.Utils.deps.json
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\bin\Debug\net8.0-windows\PMS.Client.Utils.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\bin\Debug\net8.0-windows\PMS.Client.Utils.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\PMS.Client.Utils.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\PMS.Client.Utils.AssemblyInfoInputs.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\PMS.Client.Utils.AssemblyInfo.cs
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\PMS.Client.Utils.csproj.CoreCompileInputs.cache
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\PMS.Client.Utils.sourcelink.json
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\PMS.Client.Utils.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\refint\PMS.Client.Utils.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\PMS.Client.Utils.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Utils\obj\Debug\net8.0-windows\ref\PMS.Client.Utils.dll

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "PMS.Client.Initial/1.0.0": {
         "dependencies": {
+          "PMS.Client.Assets": "1.0.0",
           "PMS.Client.Bll": "1.0.0",
           "PMS.Client.DAL": "1.0.0",
           "PMS.Client.IBll": "1.0.0",
@@ -108,10 +109,19 @@
           }
         }
       },
+      "PMS.Client.Assets/1.0.0": {
+        "runtime": {
+          "PMS.Client.Assets.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PMS.Client.Bll/1.0.0": {
         "dependencies": {
           "PMS.Client.IBll": "1.0.0",
-          "PMS.Client.IDAL": "1.0.0"
+          "PMS.Client.IDAL": "1.0.0",
+          "PMS.Client.Utils": "1.0.0"
         },
         "runtime": {
           "PMS.Client.Bll.dll": {
@@ -153,6 +163,14 @@
       "PMS.Client.IDAL/1.0.0": {
         "runtime": {
           "PMS.Client.IDAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PMS.Client.Utils/1.0.0": {
+        "runtime": {
+          "PMS.Client.Utils.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -229,6 +247,11 @@
       "path": "prism.wpf/9.0.537",
       "hashPath": "prism.wpf.9.0.537.nupkg.sha512"
     },
+    "PMS.Client.Assets/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PMS.Client.Bll/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -250,6 +273,11 @@
       "sha512": ""
     },
     "PMS.Client.IDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PMS.Client.Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

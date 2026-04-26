@@ -1269,6 +1269,16 @@
           "bin/placeholder/PMS.Server.IService.dll": {}
         }
       },
+      "PMS.Server.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PMS.Server.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PMS.Server.Models.dll": {}
+        }
+      },
       "PMS.Server.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3979,6 +3989,11 @@
       "path": "../PMS_Server_IService/PMS.Server.IService.csproj",
       "msbuildProject": "../PMS_Server_IService/PMS.Server.IService.csproj"
     },
+    "PMS.Server.Models/1.0.0": {
+      "type": "project",
+      "path": "../PMS_Server_Models/PMS.Server.Models.csproj",
+      "msbuildProject": "../PMS_Server_Models/PMS.Server.Models.csproj"
+    },
     "PMS.Server.Service/1.0.0": {
       "type": "project",
       "path": "../PMS.Server.Service/PMS.Server.Service.csproj",
@@ -3989,6 +4004,7 @@
     "net8.0": [
       "PMS.Server.Entities >= 1.0.0",
       "PMS.Server.IService >= 1.0.0",
+      "PMS.Server.Models >= 1.0.0",
       "PMS.Server.Service >= 1.0.0",
       "SqlSugarCore >= 5.1.4.214",
       "Swashbuckle.AspNetCore >= 6.6.2"
@@ -4036,6 +4052,9 @@
             },
             "E:\\C#_code\\PMS\\PMS_Server\\PMS_Server_IService\\PMS.Server.IService.csproj": {
               "projectPath": "E:\\C#_code\\PMS\\PMS_Server\\PMS_Server_IService\\PMS.Server.IService.csproj"
+            },
+            "E:\\C#_code\\PMS\\PMS_Server\\PMS_Server_Models\\PMS.Server.Models.csproj": {
+              "projectPath": "E:\\C#_code\\PMS\\PMS_Server\\PMS_Server_Models\\PMS.Server.Models.csproj"
             }
           }
         }

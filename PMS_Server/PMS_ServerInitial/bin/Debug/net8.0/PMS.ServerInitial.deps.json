@@ -10,6 +10,7 @@
         "dependencies": {
           "PMS.Server.Entities": "1.0.0",
           "PMS.Server.IService": "1.0.0",
+          "PMS.Server.Models": "1.0.0",
           "PMS.Server.Service": "1.0.0",
           "SqlSugarCore": "5.1.4.214",
           "Swashbuckle.AspNetCore": "6.6.2"
@@ -842,6 +843,14 @@
           }
         }
       },
+      "PMS.Server.Models/1.0.0": {
+        "runtime": {
+          "PMS.Server.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PMS.Server.Service/1.0.0": {
         "dependencies": {
           "PMS.Server.Entities": "1.0.0",
@@ -1366,6 +1375,11 @@
       "sha512": ""
     },
     "PMS.Server.IService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PMS.Server.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

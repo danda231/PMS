@@ -1,0 +1,619 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\PMS.Client.Initial.csproj": {}
+  },
+  "projects": {
+    "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\PMS.Client.Assets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\PMS.Client.Assets.csproj",
+        "projectName": "PMS.Client.Assets",
+        "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\PMS.Client.Assets.csproj",
+        "packagesPath": "C:\\Users\\14249\\.nuget\\packages\\",
+        "outputPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\14249\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\C#_code\\MonitorSystem\\controlpackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\PMS.Client.Bll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\PMS.Client.Bll.csproj",
+        "projectName": "PMS.Client.Bll",
+        "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\PMS.Client.Bll.csproj",
+        "packagesPath": "C:\\Users\\14249\\.nuget\\packages\\",
+        "outputPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\14249\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\C#_code\\MonitorSystem\\controlpackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\PMS.Client.IBll.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\PMS.Client.IBll.csproj"
+              },
+              "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.DAL\\PMS.Client.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.DAL\\PMS.Client.DAL.csproj",
+        "projectName": "PMS.Client.DAL",
+        "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.DAL\\PMS.Client.DAL.csproj",
+        "packagesPath": "C:\\Users\\14249\\.nuget\\packages\\",
+        "outputPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\14249\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\C#_code\\MonitorSystem\\controlpackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Entities\\PMS.Client.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Entities\\PMS.Client.Entities.csproj",
+        "projectName": "PMS.Client.Entities",
+        "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Entities\\PMS.Client.Entities.csproj",
+        "packagesPath": "C:\\Users\\14249\\.nuget\\packages\\",
+        "outputPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\14249\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\C#_code\\MonitorSystem\\controlpackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\PMS.Client.IBll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\PMS.Client.IBll.csproj",
+        "projectName": "PMS.Client.IBll",
+        "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\PMS.Client.IBll.csproj",
+        "packagesPath": "C:\\Users\\14249\\.nuget\\packages\\",
+        "outputPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\14249\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\C#_code\\MonitorSystem\\controlpackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Entities\\PMS.Client.Entities.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Entities\\PMS.Client.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj",
+        "projectName": "PMS.Client.IDAL",
+        "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\PMS.Client.IDAL.csproj",
+        "packagesPath": "C:\\Users\\14249\\.nuget\\packages\\",
+        "outputPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\14249\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\C#_code\\MonitorSystem\\controlpackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\PMS.Client.Initial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\PMS.Client.Initial.csproj",
+        "projectName": "PMS.Client.Initial",
+        "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\PMS.Client.Initial.csproj",
+        "packagesPath": "C:\\Users\\14249\\.nuget\\packages\\",
+        "outputPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Initial\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\VS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\14249\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "E:\\C#_code\\MonitorSystem\\controlpackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\PMS.Client.Assets.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Assets\\PMS.Client.Assets.csproj"
+              },
+              "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\PMS.Client.Bll.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.Bll\\PMS.Client.Bll.csproj"
+              },
+              "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.DAL\\PMS.Client.DAL.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.DAL\\PMS.Client.DAL.csproj"
+              },
+              "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\PMS.Client.IBll.csproj": {
+                "projectPath": "E:\\C#_code\\PMS\\PMS_Client\\PMS.Client.IBll\\PMS.Client.IBll.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[9.0.537, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.25, 8.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

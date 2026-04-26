@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PMS.Client.Assets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b50594f99309485a415fad1e4ef8922b88e13eb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44d3814fb4983cb9e353c796fb5f17f6768824c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PMS.Client.Assets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PMS.Client.Assets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

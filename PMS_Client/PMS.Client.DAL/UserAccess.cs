@@ -9,11 +9,12 @@ namespace PMS.Client.DAL
 {
     public class UserAccess : WebAccess, IUserAccess
     {
-        public bool Login(string username, string password)
+        public string Login(string username, string password)
         {
             string res = this.Get($"api/User?un={username}&pw={password}");
             
-            return res == "true";
+
+            return res;
         }
     }
 }

@@ -8,6 +8,6 @@ namespace PMS.Client.IDAL
 {
     public interface IUserAccess
     {
-        bool Login(string username, string password);
+        string Login(string username, string password);
     }
 }

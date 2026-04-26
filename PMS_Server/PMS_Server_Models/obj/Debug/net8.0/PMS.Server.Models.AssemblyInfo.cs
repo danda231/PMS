@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PMS.Server.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+287887ec9e9d87c65cabc5b93a8b3c43b9f4ccaa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44d3814fb4983cb9e353c796fb5f17f6768824c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PMS.Server.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PMS.Server.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

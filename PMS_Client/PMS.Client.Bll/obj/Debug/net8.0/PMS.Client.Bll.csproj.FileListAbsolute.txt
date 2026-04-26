@@ -1,8 +1,12 @@
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Bll.deps.json
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Bll.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Bll.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Entities.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.IBll.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.IDAL.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.IBll.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.IDAL.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Entities.pdb
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\obj\Debug\net8.0\PMS.Client.Bll.csproj.AssemblyReference.cache
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\obj\Debug\net8.0\PMS.Client.Bll.GeneratedMSBuildEditorConfig.editorconfig
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\obj\Debug\net8.0\PMS.Client.Bll.AssemblyInfoInputs.cache
@@ -14,7 +18,5 @@ E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\obj\Debug\net8.0\PMS.Client.Bll.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\obj\Debug\net8.0\refint\PMS.Client.Bll.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\obj\Debug\net8.0\PMS.Client.Bll.pdb
 E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\obj\Debug\net8.0\ref\PMS.Client.Bll.dll
-E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.IDAL.dll
-E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.IDAL.pdb
-E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Entities.dll
-E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Entities.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Utils.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Bll\bin\Debug\net8.0\PMS.Client.Utils.pdb
