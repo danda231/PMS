@@ -8,9 +8,16 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/PMS.Client.Assets;component/Styles/ButtonStyles.xaml"/>
                 <ResourceDictionary Source="/PMS.Client.Assets;component/Styles/TextBoxStyles.xaml"/>
+                <ResourceDictionary Source="/PMS.Client.Assets;component/Styles/ViewTemplates.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
-            <FontFamily x:Key="AliFont">/Zhaoxi.PMS.Client.Assets;component/Fonts/AlibabaPuHuiTi-3-45-Light.ttf#阿里巴巴普惠体 3.0 45 Light</FontFamily>
+            <FontFamily x:Key="AliFont">/PMS.Client.Assets;component/Fonts/AlibabaPuHuiTi-3-45-Light.ttf#阿里巴巴普惠体 3.0 45 Light</FontFamily>
+            <FontFamily x:Key="DyhFont">/PMS.Client.Assets;component/Fonts/SmileySans-Oblique.ttf#得意黑</FontFamily>
+            <FontFamily x:Key="Iconfont">/PMS.Client.Assets;component/Fonts/iconfont.ttf#zx_icons</FontFamily>
+
+
+
+            <DropShadowEffect Color="#3E7FFF" ShadowDepth="0" Opacity="0.2" x:Key="shadowEffect"/>
         </ResourceDictionary>
     </Application.Resources>
     </p:PrismApplication>

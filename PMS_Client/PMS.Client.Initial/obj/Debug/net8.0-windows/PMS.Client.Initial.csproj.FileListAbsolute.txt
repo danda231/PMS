@@ -49,3 +49,5 @@ E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\obj\Debug\net8.0-windows\Views\Dial
 E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\obj\Debug\net8.0-windows\App.baml
 E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\bin\Debug\net8.0-windows\PMS.Client.Utils.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\bin\Debug\net8.0-windows\PMS.Client.Utils.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\bin\Debug\net8.0-windows\LiveCharts.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Initial\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll

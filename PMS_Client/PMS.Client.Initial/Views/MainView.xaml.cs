@@ -22,6 +22,12 @@ namespace PMS.Client.Initial.Views
         public MainView()
         {
             InitializeComponent();
+            this.Loaded += MainView_Loaded;
+        }
+
+        private void MainView_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

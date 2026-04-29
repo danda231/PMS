@@ -31,10 +31,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PMS.ServerInitial.Controllers.FileController",
+    "Method": "GetImage",
+    "RelativePath": "api/File/img/{img}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "img",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.MenuController",
+    "Method": "GetAllMenus",
+    "RelativePath": "api/Menu/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PMS.ServerInitial.Controllers.UserController",
     "Method": "Get",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -45,6 +71,42 @@
       },
       {
         "Name": "pw",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "Test",
+    "RelativePath": "api/User/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/User/update_pwd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "old_password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "new_password",
         "Type": "System.String",
         "IsRequired": false
       }

@@ -14,3 +14,5 @@ E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\refint\PMS.Client.DAL.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\PMS.Client.DAL.pdb
 E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\obj\Debug\net8.0\ref\PMS.Client.DAL.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\bin\Debug\net8.0\PMS.Client.Entities.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.DAL\bin\Debug\net8.0\PMS.Client.Entities.pdb

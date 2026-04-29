@@ -43,5 +43,9 @@ namespace PMS.Server.Entities
         public string LastModifyTime { get; set; }
 
         public int LastModifyId { get; set; }
+
+
+        [SugarColumn(IsIgnore = true)]
+        public string Token { get; set; }
     }
 }

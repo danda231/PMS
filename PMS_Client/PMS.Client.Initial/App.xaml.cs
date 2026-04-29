@@ -1,5 +1,6 @@
 ﻿using PMS.Client.Bll;
 using PMS.Client.DAL;
+using PMS.Client.Entities;
 using PMS.Client.IBll;
 using PMS.Client.IDAL;
 using PMS.Client.Initial.ViewModels;
@@ -22,6 +23,10 @@ namespace PMS.Client.Initial
         }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+
+            // 注册全局属性
+            containerRegistry.RegisterSingleton<GlobalValues>();
+
             // 可视化绑定
             containerRegistry.RegisterForNavigation<MainView, MainViewModel>();
             containerRegistry.RegisterDialog<LoginView, LoginViewModel>();
@@ -30,11 +35,22 @@ namespace PMS.Client.Initial
             // Service绑定
             containerRegistry.Register<IUserService, UserService>();
             containerRegistry.Register<IFileService,FileService>();
+            containerRegistry.Register<IMenuService, MenuService>();
 
 
             // Access绑定
             containerRegistry.Register<IUserAccess, UserAccess>();
             containerRegistry.Register<IFileAccess, FileAccess>();
+            containerRegistry.Register<IMenuAccess, MenuAccess>();
+        }
+
+        // 扫描目录配置
+        protected override IModuleCatalog CreateModuleCatalog()
+        {
+            return new DirectoryModuleCatalog
+            {
+                ModulePath = Environment.CurrentDirectory + "\\Modules"
+            };
         }
     }
 

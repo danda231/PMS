@@ -8,7 +8,7 @@
         WindowStartupLocation="CenterScreen" 
         Width="{Binding Content.Width, RelativeSource={RelativeSource self}}"
         Height="{Binding Content.Height, RelativeSource={RelativeSource self}}"
-        Title="DialogWindow" >
+        Title="{Binding Title}" >
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="-1" NonClientFrameEdges="None"/>
     </WindowChrome.WindowChrome>

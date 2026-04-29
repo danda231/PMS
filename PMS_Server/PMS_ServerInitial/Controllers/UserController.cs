@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PMS.Server.Entities;
 using PMS.Server.IService;
@@ -14,8 +15,8 @@ namespace PMS.ServerInitial.Controllers
         public UserController(IUserService userService) { 
             _userService = userService;
         }
-        [HttpGet]
-        public ActionResult Get(string un, string pw)
+        [HttpPost("login")]
+        public ActionResult Get([FromForm]string un, [FromForm] string pw)
         {
             ///结果做好封装
             ///{
@@ -38,5 +39,32 @@ namespace PMS.ServerInitial.Controllers
             }
             return Ok(result);
         }
+        [HttpGet("test")]
+        [Authorize]
+        public ActionResult Test()
+        {
+            var authHeader = Request.Headers["Authorization"];
+            Console.WriteLine("Header原始值: " + authHeader);
+            return Ok();
+        }
+
+        [HttpPost("update_pwd")]
+        [Authorize]
+        public ActionResult UpdatePassword([FromForm] int id, [FromForm] string old_password, [FromForm] string new_password)
+        {
+            Result<bool> result = new Result<bool>();
+            try
+            {
+                _userService.UpdatePassword(id, old_password, new_password);
+                result.Data = true;
+            }catch(Exception ex)
+            {
+                result.State = 500;
+                result.ExceptionMessage = ex.Message;
+            }
+
+            return Ok(result);
+        }
+
     }
 }

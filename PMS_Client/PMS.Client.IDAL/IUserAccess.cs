@@ -9,5 +9,7 @@ namespace PMS.Client.IDAL
     public interface IUserAccess
     {
         string Login(string username, string password);
+
+        string UpdatePassword(int id, string old_password, string new_password);
     }
 }

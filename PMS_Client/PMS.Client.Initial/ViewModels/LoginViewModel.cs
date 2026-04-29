@@ -36,11 +36,14 @@ namespace PMS.Client.Initial.ViewModels
         public DialogCloseListener RequestClose { get; set; }
         IUserService _userService;
         IFileService _fileService;
+        GlobalValues _globalValues;
 
-        public LoginViewModel(IUserService userService, IFileService fileService)
+        public LoginViewModel(IUserService userService, IFileService fileService, GlobalValues globalValues)
         {
             _userService = userService;
             _fileService = fileService;
+            _globalValues = globalValues;
+            
             // 事件初始化
             LoginCommand = new DelegateCommand(DoLogin);
             
@@ -118,8 +121,16 @@ namespace PMS.Client.Initial.ViewModels
             {
                 // 将Entity => model
                 var user = _userService.Login(UserName, Password);
+                _globalValues.Token = user.Token;
 
-                RequestClose.Invoke(new DialogResult(ButtonResult.OK));
+                DialogParameters dps = new DialogParameters();
+                dps.Add("user", user);
+
+                // 创建一个新的 DialogResult，并使用 ButtonResult 作为参数
+                var dialogResult = new DialogResult(ButtonResult.OK);
+                // 为 DialogResult 添加额外数据（使用 DialogParameters）
+                dialogResult.Parameters = dps;  // dialogParams 包含要传递的用户数据
+                RequestClose.Invoke(dialogResult);
                 // 成功登录
             }
             catch (Exception ex) { 

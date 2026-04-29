@@ -18,11 +18,6 @@ E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\PMS.ServerInitial.M
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\PMS.ServerInitial.sourcelink.json
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets.build.json
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets.development.json
-E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets\msbuild.PMS.ServerInitial.Microsoft.AspNetCore.StaticWebAssets.props
-E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets\msbuild.build.PMS.ServerInitial.props
-E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PMS.ServerInitial.props
-E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PMS.ServerInitial.props
-E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets.pack.json
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\scopedcss\bundle\PMS.ServerInitial.styles.css
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\PMS.Serv.EFF0F74B.Up2Date
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\PMS.ServerInitial.dll
@@ -116,3 +111,9 @@ E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Service.
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Service.pdb
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Models.dll
 E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\PMS.Server.Models.pdb
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets\msbuild.PMS.ServerInitial.Microsoft.AspNetCore.StaticWebAssets.props
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets\msbuild.build.PMS.ServerInitial.props
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PMS.ServerInitial.props
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PMS.ServerInitial.props
+E:\C#_code\PMS\PMS_Server\PMS_ServerInitial\obj\Debug\net8.0\staticwebassets.pack.json

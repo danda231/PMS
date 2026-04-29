@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PMS.Client.Assets\PMS.Client.Assets.csproj" />
+    <ProjectReference Include="..\PMS.Client.Entities\PMS.Client.Entities.csproj" />
+    <ProjectReference Include="..\PMS.Client.IBll\PMS.Client.IBll.csproj" />
+    <ProjectReference Include="..\PMS.Client.Utils\PMS.Client.Utils.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy $(TargetPath) $(SolutionDir)PMS.Client.Initial\bin\Debug\net8.0-windows\Modules\$(TargetFileName) /y" />
+  </Target>
+
+</Project>
