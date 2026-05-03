@@ -65,6 +65,7 @@ namespace PMS.ServerInitial
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<IMenuService, MenuService>();
+            services.AddScoped<IRoleService, RoleService>();
         }
 
         private static void ConfigAuthentication(IServiceCollection services)

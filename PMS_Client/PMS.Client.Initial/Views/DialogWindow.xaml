@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PMS.Client.Initial.ViewModels"
         mc:Ignorable="d" ResizeMode="NoResize"
-        WindowStartupLocation="CenterScreen" 
+        WindowStartupLocation="CenterScreen" Background="{x:Null}"
         Width="{Binding Content.Width, RelativeSource={RelativeSource self}}"
         Height="{Binding Content.Height, RelativeSource={RelativeSource self}}"
         Title="{Binding Title}" >
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="-1" NonClientFrameEdges="None"/>
     </WindowChrome.WindowChrome>
-    <Grid>
-        
-    </Grid>
+    <Window.CommandBindings>
+        <CommandBinding Command="Close" Executed="CloseBinding_Executed"/>
+    </Window.CommandBindings>
 </Window>

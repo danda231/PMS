@@ -176,7 +176,7 @@
                                                     FontSize="12"/>
                                         <Grid Grid.Column="1" Name="close_grid" Visibility="Collapsed"
                                               Width="30" Margin="0,0,-3,0">
-                                            <Button Grid.Column="1" Style="{StaticResource TabCloseButtonStyle}" 
+                                            <Button Grid.Column="1" Style="{DynamicResource TabCloseButtonStyle}" 
                                                     Foreground="{TemplateBinding Foreground}"
                                                     Visibility="Collapsed" Name="close_btn"
                                                     Command="{Binding DataContext.CloseCommand}"/>

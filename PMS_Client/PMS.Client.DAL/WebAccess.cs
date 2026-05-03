@@ -2,7 +2,10 @@
 using PMS.Client.IDAL;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Net;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -71,6 +74,68 @@ namespace PMS.Client.DAL
                 postContent.Add(item.Value, item.Key);
             }
             return postContent;
+        }
+
+        public async Task UploadAsync(string uri, string file,
+            Action<int> progress, Action<AsyncCompletedEventArgs> completed,
+            Dictionary<string, object> headers = null)
+        {
+            using (WebClient client = new WebClient())
+            {
+                client.Headers.Add("Authorization", "Bearer " + _globalValues.Token);
+
+                if (headers != null)
+                {
+                    foreach (var item in headers)
+                    {
+                        // 
+                        client.Headers.Add(item.Key, item.Value.ToString());
+                    }
+                }
+                client.UploadProgressChanged += (se, ev) => progress?.Invoke(ev.ProgressPercentage);
+                client.UploadFileCompleted += (se, ev) => completed?.Invoke(ev);
+
+                client.UploadFileAsync(new Uri(HostName + uri), file);
+            }
+        }
+
+        public class ProgressableStreamContent : HttpContent
+        {
+            private const int defaultBufferSize = 4096;
+
+            private Stream content;
+            private int bufferSize;
+            private Action<int> progress;
+
+            public ProgressableStreamContent(Stream content, int bufferSize, Action<int> progress)
+            {
+                this.content = content;
+                this.bufferSize = bufferSize;
+                this.progress = progress;
+            }
+
+            protected override async Task SerializeToStreamAsync(Stream stream, TransportContext context)
+            {
+                var buffer = new byte[bufferSize];
+                long size = content.Length;
+                long uploaded = 0;
+
+                int read;
+                while ((read = await content.ReadAsync(buffer, 0, buffer.Length)) > 0)
+                {
+                    uploaded += read;
+                    await stream.WriteAsync(buffer, 0, read);
+
+                    int percent = (int)((uploaded * 100L) / size);
+                    progress?.Invoke(percent);
+                }
+            }
+
+            protected override bool TryComputeLength(out long length)
+            {
+                length = content.Length;
+                return true;
+            }
         }
     }
 }

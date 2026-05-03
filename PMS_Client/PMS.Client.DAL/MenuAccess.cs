@@ -14,10 +14,28 @@ namespace PMS.Client.DAL
         {
         }
 
-        public string GetAllMenus()
+        public string DeleteMenu(string id)
         {
-            string url = "api/Menu/all";
+            string url = $"api/Menu/Delete/{id}";
+            return this.Get(url) ;
+        }
+
+        public string GetAllMenus(string key)
+        {
+            key = string.IsNullOrEmpty(key) ? "none" : key;
+            string url = $"api/Menu/all/{key}";
             return this.Get(url);
+        }
+
+        public string UpdateMenu(string menuJson)
+        {           
+            string url = "api/Menu/update";
+
+            StringContent content = new StringContent(menuJson);
+            content.Headers.ContentType = 
+                new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+           
+            return this.Post(url, content);
         }
     }
 }

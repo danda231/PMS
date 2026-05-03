@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 2131476278978
 Views\DashboardView.xaml;Views\Dialogs\ModifyPasswordView.xaml;Views\PageView.xaml;
 
-False
+True
 

@@ -9,6 +9,10 @@ namespace PMS.Client.IDAL
     public interface IMenuAccess
     {
 
-        public string GetAllMenus();
+        public string GetAllMenus(string key);
+
+        public string UpdateMenu(string menuJson);
+
+        public string DeleteMenu(string id);
     }
 }

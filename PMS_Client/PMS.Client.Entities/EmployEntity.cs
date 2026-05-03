@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace PMS.Client.Entities
@@ -24,28 +25,30 @@ namespace PMS.Client.Entities
 
         public string EIcon { get; set; }
 
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
 
-        public string Mobile { get; set; }
+        public string? Mobile { get; set; }
 
-        public string Address { get; set; }
+        public string? Address { get; set; }
 
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
-        public string QQ { get; set; }
+        public string? QQ { get; set; }
 
-        public string WeChat { get; set; }
+        public string? WeChat { get; set; }
 
-        public string LastLoginTime { get; set; }
+        public string? LastLoginTime { get; set; }
 
-        public string CreateTime { get; set; }
+        public string? CreateTime { get; set; }
 
-        public int CreateId { get; set; }
+        public int? CreateId { get; set; }
 
-        public string LastModifyTime { get; set; }
+        public string? LastModifyTime { get; set; }
 
-        public int LastModifyId { get; set; }
+        public int? LastModifyId { get; set; }
 
-        public string Token { get; set; }
+        public string? Token { get; set; }
+
+        public UserRoleEntity[]? Roles { get; set; }
     }
 }

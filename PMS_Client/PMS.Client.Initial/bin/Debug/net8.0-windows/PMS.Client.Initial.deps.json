@@ -11,6 +11,8 @@
           "LiveCharts.Wpf": "0.9.7",
           "PMS.Client.Assets": "1.0.0",
           "PMS.Client.Bll": "1.0.0",
+          "PMS.Client.Common": "1.0.0",
+          "PMS.Client.Controls": "1.0.0",
           "PMS.Client.DAL": "1.0.0",
           "PMS.Client.IBll": "1.0.0",
           "Prism.DryIoc": "9.0.537"
@@ -150,10 +152,31 @@
           }
         }
       },
+      "PMS.Client.Common/1.0.0": {
+        "dependencies": {
+          "Prism.DryIoc": "9.0.537"
+        },
+        "runtime": {
+          "PMS.Client.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PMS.Client.Controls/1.0.0": {
+        "runtime": {
+          "PMS.Client.Controls.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PMS.Client.DAL/1.0.0": {
         "dependencies": {
           "PMS.Client.Entities": "1.0.0",
-          "PMS.Client.IDAL": "1.0.0"
+          "PMS.Client.IBll": "1.0.0",
+          "PMS.Client.IDAL": "1.0.0",
+          "PMS.Client.Utils": "1.0.0"
         },
         "runtime": {
           "PMS.Client.DAL.dll": {
@@ -288,6 +311,16 @@
       "sha512": ""
     },
     "PMS.Client.Bll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PMS.Client.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PMS.Client.Controls/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

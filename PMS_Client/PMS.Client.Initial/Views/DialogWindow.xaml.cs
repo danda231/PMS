@@ -28,5 +28,10 @@ namespace PMS.Client.Initial.ViewModels
             get; 
             set; 
         }
+
+        private void CloseBinding_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

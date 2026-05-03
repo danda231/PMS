@@ -1,12 +1,18 @@
 [
   {
     "ContainingType": "PMS.ServerInitial.Controllers.FileController",
-    "Method": "Get",
-    "RelativePath": "api/File",
-    "HttpMethod": "GET",
+    "Method": "DeleteFile",
+    "RelativePath": "api/File/delete",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "filename",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -47,13 +53,321 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PMS.ServerInitial.Controllers.MenuController",
-    "Method": "GetAllMenus",
-    "RelativePath": "api/Menu/all",
+    "ContainingType": "PMS.ServerInitial.Controllers.FileController",
+    "Method": "Get",
+    "RelativePath": "api/File/list/{key}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FileController",
+    "Method": "Upload",
+    "RelativePath": "api/File/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formCollection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      },
+      {
+        "Name": "md5",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "file_path",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.MenuController",
+    "Method": "GetAllMenus",
+    "RelativePath": "api/Menu/all/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.MenuController",
+    "Method": "Delete",
+    "RelativePath": "api/Menu/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.MenuController",
+    "Method": "Update",
+    "RelativePath": "api/Menu/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menu",
+        "Type": "PMS.Server.Entities.MenuEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.RoleController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/Role/all/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.RoleController",
+    "Method": "CheckRoleName",
+    "RelativePath": "api/Role/check/{id}/{roleName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.RoleController",
+    "Method": "DeleteRoleUser",
+    "RelativePath": "api/Role/del_user/{uid}/{rid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "uid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.RoleController",
+    "Method": "Delete",
+    "RelativePath": "api/Role/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.RoleController",
+    "Method": "GetRoleByIds",
+    "RelativePath": "api/Role/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.RoleController",
+    "Method": "UpdateRoleMenus",
+    "RelativePath": "api/Role/remenus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rms",
+        "Type": "PMS.Server.Entities.RoleMenu[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.RoleController",
+    "Method": "UpdateRoleUsers",
+    "RelativePath": "api/Role/reusers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rms",
+        "Type": "PMS.Server.Entities.RoleUser[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.RoleController",
+    "Method": "Update",
+    "RelativePath": "api/Role/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sysRole",
+        "Type": "PMS.Server.Entities.SysRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "CheckUserName",
+    "RelativePath": "api/User/check/{username}/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "GetUsersByIds",
+    "RelativePath": "api/User/ids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/list/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "LockUser",
+    "RelativePath": "api/User/lock/{id}/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -79,12 +393,44 @@
   },
   {
     "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/User/reset_pwd/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
     "Method": "Test",
     "RelativePath": "api/User/test",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "Update",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "PMS.Server.Entities.SysEmployee",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -109,6 +455,22 @@
         "Name": "new_password",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.UserController",
+    "Method": "UpdateUserRoles",
+    "RelativePath": "api/User/update_roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roles",
+        "Type": "PMS.Server.Entities.RoleUser[]",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

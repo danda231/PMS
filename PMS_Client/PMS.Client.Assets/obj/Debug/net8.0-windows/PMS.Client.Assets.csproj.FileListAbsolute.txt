@@ -1,10 +1,7 @@
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\bin\Debug\net8.0-windows\PMS.Client.Assets.deps.json
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\bin\Debug\net8.0-windows\PMS.Client.Assets.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\bin\Debug\net8.0-windows\PMS.Client.Assets.pdb
-E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\ButtonStyles.baml
-E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\CalendarStyles.baml
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\TextBoxStyles.baml
-E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\ViewTemplates.baml
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets_MarkupCompile.cache
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.g.resources
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +13,9 @@ E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\refint\PMS.Client.Assets.dll
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\PMS.Client.Assets.pdb
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\ref\PMS.Client.Assets.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\ButtonStyles.baml
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\CalendarStyles.baml
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\ComboBoxStyle.baml
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\ScrollViewerStyle.baml
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\ViewTemplates.baml
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\CollectionStyles.baml

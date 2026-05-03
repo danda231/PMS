@@ -30,7 +30,9 @@ namespace PMS.Client.MainModule.ViewModels
             foreach (var menu in menus)
             {
                 // 转义字符串 防止\u 形式
-                string icon = ((char)int.Parse(menu.MenuIcon, NumberStyles.HexNumber)).ToString();
+                string icon = "";
+                if(!string.IsNullOrEmpty(menu.MenuIcon))
+                    icon = ((char)int.Parse(menu.MenuIcon, NumberStyles.HexNumber)).ToString();
                 Menus.Add(new MenuModel
                 {
                     MenuHeader = menu.MenuHeader,

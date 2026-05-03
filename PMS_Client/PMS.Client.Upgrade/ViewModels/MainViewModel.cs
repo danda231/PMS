@@ -63,12 +63,25 @@ namespace PMS.Client.Upgrade.ViewModels
         }
         private void DoDownLoadFile(FileModel file)
         {
+            if (file.HasCompeleted)
+            {
+                Completed++;
+                if (Completed >= FileList.Count)
+                {
+                    SaveJson();
+                    return;
+                }
+                this.DoDownLoadFile(FileList[Completed]);
+            }
+            file.HasError = false;
+            file.ErrorMsg = "";
+
+            file.FilePath = file.FilePath.Substring(2);
             string local_file = System.IO.Path.Combine(file.FilePath, file.FileName);
             if (!Directory.Exists(file.FilePath) && !string.IsNullOrEmpty(file.FilePath))
             {
                 Directory.CreateDirectory(file.FilePath);
             }
-
             string path = string.IsNullOrEmpty(file.FilePath) ? "none" : file.FilePath;
             string web_file = path + "/" + file.FileName;
             WebAccess webAccess = new WebAccess();
@@ -80,6 +93,7 @@ namespace PMS.Client.Upgrade.ViewModels
                     file.ErrorMsg = completed_ev.Error.Message;
                     file.State = "异常";
                     file.StateColor = "Red";
+                    file.HasError = true;
                 }
                 else
                 {
@@ -88,7 +102,7 @@ namespace PMS.Client.Upgrade.ViewModels
                 }
                 /// 下载完成回调
                 file.HasCompeleted = true;
-                file.Progress = 0;
+                file.Progress = 0;  
                 Completed++;
                 if (Completed >= FileList.Count)
                 {

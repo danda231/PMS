@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PMS.Client.IDAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ddc55d2fa5ac768d32d0181d29ea7e25cc514ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01840b5fce2e5880a5dd69ca361d5b49c90c3a7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PMS.Client.IDAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PMS.Client.IDAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,14 +19,15 @@ namespace PMS.ServerInitial.Controllers
 
 
 
-        [HttpGet("all")]
+        [HttpGet("all/{key}")]
         [Authorize]
-        public ActionResult GetAllMenus()
+        public ActionResult GetAllMenus([FromRoute] string key)
         {
             Result<MenuEntity[]> res = new Result<MenuEntity[]>();
             try
             {
-                res.Data = _menuService.GetAllMenus().ToArray();
+                key = key == "none" ? "" : key;
+                res.Data = _menuService.GetAllMenus(key).ToArray();
                 
             }
             catch (Exception ex)
@@ -37,6 +38,47 @@ namespace PMS.ServerInitial.Controllers
             }
             return Ok(res);
 
+        }
+
+
+        
+        [HttpPost("update")]
+        [Authorize]
+        public ActionResult Update(MenuEntity menu)
+        {
+            Result<int> result = new Result<int>();
+            try
+            {
+                var ms = _menuService.Update(menu);
+                result.Data = ms;
+
+            }catch (Exception ex)
+            {
+                result.State = 500;
+                result.ExceptionMessage = ex.Message;
+            }
+
+            return Ok(result);
+        }
+
+        [HttpGet("delete/{id}")]
+        [Authorize]
+        public ActionResult Delete([FromRoute]string id)
+        {
+            Result<int> result = new Result<int>();
+            try
+            {
+                var ms = _menuService.Delete(id);
+                result.Data = ms;
+
+            }
+            catch (Exception ex)
+            {
+                result.State = 500;
+                result.ExceptionMessage = ex.Message;
+            }
+
+            return Ok(result);
         }
     }
 }

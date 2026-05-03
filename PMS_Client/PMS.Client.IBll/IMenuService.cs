@@ -10,7 +10,11 @@ namespace PMS.Client.IBll
     public interface IMenuService
     {
 
-        public IEnumerable<MenuEntity> GetAllMenus();
+        public IEnumerable<MenuEntity> GetAllMenus(string key = "");
+
+        public int UpdateMenu(MenuEntity menu);
+
+        public int DeleteMenu(string id);
         
     }
 }

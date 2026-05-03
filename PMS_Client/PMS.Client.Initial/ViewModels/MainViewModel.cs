@@ -1,4 +1,5 @@
-﻿using PMS.Client.Entities;
+﻿using PMS.Client.Common;
+using PMS.Client.Entities;
 using PMS.Client.IBll;
 using PMS.Client.Initial.Models;
 using System;
@@ -11,7 +12,7 @@ using System.Windows.Threading;
 
 namespace PMS.Client.Initial.ViewModels
 {
-    internal class MainViewModel
+    internal class MainViewModel : BindableBase
     {
         private readonly IDialogService _dialogService;
 
@@ -19,18 +20,46 @@ namespace PMS.Client.Initial.ViewModels
         private Entities.MenuEntity[] menus;
         IRegionManager _regionManager;
         Entities.EmployEntity _currentUser;
+        IEventAggregator _eventAggregator;
 
         public DelegateCommand WorkbenchCommand { get; set; }
         public DelegateCommand<string> PageSwitchCommand { get; set; }
+
+
+        private int _viewBlur;
+        public int ViewBlur 
+        {
+            get { return _viewBlur; }
+            set { SetProperty(ref _viewBlur, value); }
+        }
+
+        private bool _showLoading;
+        public bool ShowLoading 
+        {
+            get { return _showLoading; }
+            set { SetProperty(ref _showLoading, value , () =>
+            {
+                ViewBlur = value ? 5 : 0;                
+            }); }
+        }
+
+        private string _loadingTip;
+        public string LoadingTip 
+        {
+            get { return _loadingTip; }
+            set { SetProperty(ref _loadingTip, value); }
+        }
 
         // 打开登录界面
         public MainViewModel(
             IDialogService dialogService, 
             IMenuService menuService,
-            IRegionManager regionManager)
+            IRegionManager regionManager,
+            IEventAggregator eventAggregator)
         {
             _dialogService = dialogService;
             _regionManager = regionManager;
+            _eventAggregator = eventAggregator;
 
             _dialogService.ShowDialog("LoginView", result =>
             {
@@ -62,13 +91,17 @@ namespace PMS.Client.Initial.ViewModels
                     MenuId = me.MenuId,
                     MenuHeader = me.MenuHeader,
                 });
-            }
-            
+            }            
             if(menus.Length > 0)
                 Menus[0].IsSelected = true;
-            
 
-
+            _eventAggregator.GetEvent<LoadingEvent>()
+                .Subscribe(t =>
+                {
+                    // 显示或隐藏Loading动画
+                    ShowLoading = !ShowLoading;
+                    this.LoadingTip = t;
+                });
         }
 
         private void ShowWorkbench()

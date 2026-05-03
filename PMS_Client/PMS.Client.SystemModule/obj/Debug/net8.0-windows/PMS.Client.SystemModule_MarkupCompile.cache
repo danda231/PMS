@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-1-1694578408
+9-212930505
 
-41308349263
-207134840128
-Views\MenuView.xaml;
+242045472649
+211-824818496
+Views\Dialog\ModifyMenuView.xaml;Views\Dialog\ModifyRoleView.xaml;Views\Dialog\ModifyUserView.xaml;Views\Dialog\SelectRoleView.xaml;Views\Dialog\SelectUserView.xaml;Views\MenuView.xaml;Views\RoleView.xaml;Views\UploadView.xaml;Views\UserView.xaml;
 
 False
 

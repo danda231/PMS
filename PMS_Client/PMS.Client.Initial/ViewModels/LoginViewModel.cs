@@ -15,7 +15,7 @@ namespace PMS.Client.Initial.ViewModels
 
         public string Title => "登录";
         public string UserName { get; set; } = "admin";
-        public string Password { get; set; } = "12345";
+        public string Password { get; set; } = "123456";
         private string _errorInfo;
 
         public string ErrorInfo
@@ -37,6 +37,7 @@ namespace PMS.Client.Initial.ViewModels
         IUserService _userService;
         IFileService _fileService;
         GlobalValues _globalValues;
+        private bool _loadedExecuted = false;
 
         public LoginViewModel(IUserService userService, IFileService fileService, GlobalValues globalValues)
         {
@@ -49,6 +50,9 @@ namespace PMS.Client.Initial.ViewModels
             
             LoadedCommand = new DelegateCommand<object>(obj =>
             {
+                if (_loadedExecuted) return;
+                    _loadedExecuted = true;
+
                 Task.Run(async() =>
                 {
                     FrameworkElement element = obj as FrameworkElement;
@@ -73,7 +77,7 @@ namespace PMS.Client.Initial.ViewModels
                     {
                         if (!files_server.Exists(f => f.fileName == sf.fileName))
                         {
-                            //File.Delete(sf.filePath + "/" +  sf.fileName);
+                            File.Delete(sf.filePath + "/" +  sf.fileName);
                         }
                     }
 

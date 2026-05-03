@@ -30,18 +30,20 @@ namespace PMS.Client.Initial
             // 可视化绑定
             containerRegistry.RegisterForNavigation<MainView, MainViewModel>();
             containerRegistry.RegisterDialog<LoginView, LoginViewModel>();
-            containerRegistry.RegisterDialog<PMS.Client.Initial.ViewModels.DialogWindow>();
+            containerRegistry.RegisterDialogWindow<PMS.Client.Initial.ViewModels.DialogWindow>();
 
             // Service绑定
             containerRegistry.Register<IUserService, UserService>();
             containerRegistry.Register<IFileService,FileService>();
             containerRegistry.Register<IMenuService, MenuService>();
+            containerRegistry.Register<IRoleService, RoleService>();
 
 
             // Access绑定
             containerRegistry.Register<IUserAccess, UserAccess>();
             containerRegistry.Register<IFileAccess, FileAccess>();
             containerRegistry.Register<IMenuAccess, MenuAccess>();
+            containerRegistry.Register<IRoleAccess, RoleAccess>();
         }
 
         // 扫描目录配置
