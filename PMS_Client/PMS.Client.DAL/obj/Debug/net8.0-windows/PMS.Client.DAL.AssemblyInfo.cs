@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PMS.Client.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01840b5fce2e5880a5dd69ca361d5b49c90c3a7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5f23759faa08931f3911c916c2beb2becdaeeaf")]
 [assembly: System.Reflection.AssemblyProductAttribute("PMS.Client.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PMS.Client.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

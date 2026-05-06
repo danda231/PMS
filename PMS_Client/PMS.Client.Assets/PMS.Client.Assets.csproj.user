@@ -2,10 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Page Update="Styles\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\CalendarStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Styles\CollectionStyles.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\ComboBoxStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\DatePickerStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\ScrollViewerStyle.xaml">

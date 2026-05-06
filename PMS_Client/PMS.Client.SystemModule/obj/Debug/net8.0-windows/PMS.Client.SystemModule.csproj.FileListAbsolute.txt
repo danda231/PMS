@@ -41,3 +41,9 @@ E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\obj\Debug\net8.0-windows\Views
 E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\obj\Debug\net8.0-windows\Views\Dialog\ModifyRoleView.baml
 E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\obj\Debug\net8.0-windows\Views\Dialog\SelectUserView.g.cs
 E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\obj\Debug\net8.0-windows\Views\Dialog\SelectUserView.baml
+E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\bin\Debug\net8.0-windows\PMS.Client.Controls.dll
+E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\bin\Debug\net8.0-windows\PMS.Client.Controls.pdb
+E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\obj\Debug\net8.0-windows\Views\BaseInfoView.g.cs
+E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\obj\Debug\net8.0-windows\Views\BaseInfoView.baml
+E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\obj\Debug\net8.0-windows\Views\Dialog\ModifyInfoView.g.cs
+E:\C#_code\PMS\PMS_Client\PMS.Client.SystemModule\obj\Debug\net8.0-windows\Views\Dialog\ModifyInfoView.baml

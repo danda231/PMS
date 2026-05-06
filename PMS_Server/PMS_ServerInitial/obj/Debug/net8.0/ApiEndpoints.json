@@ -1,5 +1,321 @@
 [
   {
+    "ContainingType": "PMS.ServerInitial.Controllers.BIController",
+    "Method": "CancelState",
+    "RelativePath": "api/BI/cancel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.BIController",
+    "Method": "DeleteInfo",
+    "RelativePath": "api/BI/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.BIController",
+    "Method": "GetAllBaseInfo",
+    "RelativePath": "api/BI/page/{key}/{index}/{size}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.BIController",
+    "Method": "PublishState",
+    "RelativePath": "api/BI/publish/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.BIController",
+    "Method": "RevokeState",
+    "RelativePath": "api/BI/revoke/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.BIController",
+    "Method": "UpdateInfo",
+    "RelativePath": "api/BI/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "baseInfo",
+        "Type": "PMS.Server.Entities.BaseInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.ContractController",
+    "Method": "Archived",
+    "RelativePath": "api/Contract/archived",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "PMS.Server.Entities.ContractEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.ContractController",
+    "Method": "DeleteInfo",
+    "RelativePath": "api/Contract/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.ContractController",
+    "Method": "Execute",
+    "RelativePath": "api/Contract/execute",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "PMS.Server.Entities.ContractEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.ContractController",
+    "Method": "GetDatas",
+    "RelativePath": "api/Contract/page/{key}/{start}/{end}/{index}/{size}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "start",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "end",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.ContractController",
+    "Method": "ChangeInfo",
+    "RelativePath": "api/Contract/state/{id}/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "state",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.ContractController",
+    "Method": "UpdateInfo",
+    "RelativePath": "api/Contract/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "PMS.Server.Entities.ContractEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FeeController",
+    "Method": "DeleteFee",
+    "RelativePath": "api/Fee/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FeeController",
+    "Method": "GetFeeModes",
+    "RelativePath": "api/Fee/feemodel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FeeController",
+    "Method": "GetFees",
+    "RelativePath": "api/Fee/page/{key}/{index}/{size}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FeeController",
+    "Method": "ChangeState",
+    "RelativePath": "api/Fee/state/{id}/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "state",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FeeController",
+    "Method": "UpdateFee",
+    "RelativePath": "api/Fee/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feeEntity",
+        "Type": "PMS.Server.Entities.FeeEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PMS.ServerInitial.Controllers.FileController",
     "Method": "DeleteFile",
     "RelativePath": "api/File/delete",
@@ -38,6 +354,43 @@
   },
   {
     "ContainingType": "PMS.ServerInitial.Controllers.FileController",
+    "Method": "UploadIdCards",
+    "RelativePath": "api/File/id_upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formCollection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      },
+      {
+        "Name": "file_name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FileController",
+    "Method": "GetIdCard",
+    "RelativePath": "api/File/idcard/{img}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "img",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FileController",
     "Method": "GetImage",
     "RelativePath": "api/File/img/{img}",
     "HttpMethod": "GET",
@@ -54,6 +407,27 @@
   },
   {
     "ContainingType": "PMS.ServerInitial.Controllers.FileController",
+    "Method": "UploadIssueImage",
+    "RelativePath": "api/File/issue_upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formCollection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      },
+      {
+        "Name": "file_name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FileController",
     "Method": "Get",
     "RelativePath": "api/File/list/{key}",
     "HttpMethod": "GET",
@@ -62,6 +436,22 @@
     "Parameters": [
       {
         "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FileController",
+    "Method": "OrderImage",
+    "RelativePath": "api/File/order_img/{img}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "img",
         "Type": "System.String",
         "IsRequired": true
       }
@@ -90,6 +480,95 @@
         "Name": "file_path",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FinanceController",
+    "Method": "DeleteInfo",
+    "RelativePath": "api/Finance/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FinanceController",
+    "Method": "GetDatas",
+    "RelativePath": "api/Finance/page/{key}/{start}/{end}/{index}/{size}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "start",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "end",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FinanceController",
+    "Method": "ChangeInfo",
+    "RelativePath": "api/Finance/state/{id}/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "state",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.FinanceController",
+    "Method": "UpdateInfo",
+    "RelativePath": "api/Finance/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "PMS.Server.Entities.IEEntity",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -137,6 +616,163 @@
       {
         "Name": "menu",
         "Type": "PMS.Server.Entities.MenuEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OrderController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Order/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OrderController",
+    "Method": "GetOrders",
+    "RelativePath": "api/Order/page/{key}/{index}/{size}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OrderController",
+    "Method": "ChangeState",
+    "RelativePath": "api/Order/state/{id}/{state}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "state",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OrderController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Order/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "PMS.Server.Entities.OrderEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OwnerController",
+    "Method": "GetBuildingEntities",
+    "RelativePath": "api/Owner/buildings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OwnerController",
+    "Method": "DeleteOwner",
+    "RelativePath": "api/Owner/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OwnerController",
+    "Method": "GetOwners",
+    "RelativePath": "api/Owner/page/{index}/{size}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "conditions",
+        "Type": "PMS.Server.Entities.ConditionEntity[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OwnerController",
+    "Method": "GetQuarters",
+    "RelativePath": "api/Owner/quarters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.ServerInitial.Controllers.OwnerController",
+    "Method": "UpdateOwner",
+    "RelativePath": "api/Owner/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "owner",
+        "Type": "PMS.Server.Entities.OwnerEntity",
         "IsRequired": true
       }
     ],

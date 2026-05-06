@@ -25,8 +25,27 @@ namespace PMS.Server.Service
 
         public int Delete(int id)
         {
-            return _client.Deleteable<SysRole>()
-                .In(id).ExecuteCommand();
+            // 同时删除RoleMenu 和 RoleUser 数据
+            int count = 0;
+            try
+            {
+                _client.Ado.BeginTran();
+
+                _client.Deleteable<RoleMenu>().Where(rm => rm.RoleId == id)
+                    .In(id).ExecuteCommand();
+                _client.Deleteable<RoleUser>().Where(rm => rm.RoleId == id)
+                    .In(id).ExecuteCommand();
+                count = _client.Deleteable<SysRole>()
+                   .In(id).ExecuteCommand();
+
+                _client.Ado.CommitTran();
+            }catch (Exception ex)
+            {
+                _client.Ado.RollbackTran();
+                throw ex;
+            }
+            return count;
+            
         }
 
         public int DeleteRoleUser(int rid, int uid)

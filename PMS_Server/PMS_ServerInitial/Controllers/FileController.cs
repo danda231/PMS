@@ -58,8 +58,23 @@ namespace PMS.ServerInitial.Controllers
         [HttpGet("img/{img}")]
         public IActionResult GetImage([FromRoute(Name = "img")] string imgPath)
         {
+            return GetImage(imgPath, "UserAvatars");
+        }
+        [HttpGet("idcard/{img}")]
+        public IActionResult GetIdCard([FromRoute(Name = "img")] string imgPath)
+        {
+            return GetImage(imgPath, "SystemFiles");
+        }
+        [HttpGet("order_img/{img}")]
+        public IActionResult OrderImage([FromRoute(Name = "img")] string imgPath)
+        {
+            return GetImage(imgPath, "OrderFiles");
+        }
+
+        private IActionResult GetImage(string imgPath, string subFolder)
+        {
             var root = AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
-            string rootPath = Path.Combine(root, @"WebFiles\UserAvatars");
+            string rootPath = Path.Combine(root, @"WebFiles", subFolder);
             //获取图片的返回类型
             var contentTypDict = new Dictionary<string, string> {
                 {"jpg","image/jpeg"},
@@ -100,7 +115,6 @@ namespace PMS.ServerInitial.Controllers
             }
         }
 
-
         [HttpPost("upload")]
         public IActionResult Upload([FromForm] IFormCollection formCollection, 
             [FromHeader] string md5, [FromHeader] string file_path)
@@ -111,25 +125,9 @@ namespace PMS.ServerInitial.Controllers
                 FormFileCollection filelist = (FormFileCollection)formCollection.Files;
                 if(filelist.Count > 0)
                 {
+                    string subFolder = "UpgradeFiles";
                     string filename = filelist[0].FileName;
-
-                    var root = AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
-                    string targetPath = Path.Combine(root, "WebFiles", "UpgradeFiles");
-                    if (!string.IsNullOrEmpty(file_path) && file_path != ".\\")
-                        targetPath = Path.Combine(targetPath, file_path);
-
-                    // 没有这个目录的话建立一个
-                    DirectoryInfo di = new DirectoryInfo(targetPath);
-                    if(!di.Exists) di.Create();
-
-                    using(FileStream fs = System.IO.File.Create(Path.Combine(targetPath, filename)))
-                    {
-                        // 复制文件
-                        filelist[0].CopyToAsync(fs).GetAwaiter().GetResult();
-                        // 清空缓冲区数据
-                        fs.Flush();
-                    }
-
+                    UploadFile(filename, file_path, filelist, subFolder);
                     // 更新或插入到数据库
                     UpgradeFileEntity upgradeFile = new UpgradeFileEntity
                     {
@@ -138,17 +136,44 @@ namespace PMS.ServerInitial.Controllers
                         FilePath = file_path,
                         UploadTime = DateTime.Now,
                         Length = filelist[0].Length
-                        
                     };
                     result.Data = _fileService.AddOrUpdate(upgradeFile);
-
                 }
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 result.State = 500;
                 result.ExceptionMessage = ex.Message;
             }
             return Ok(result);
+        }
+
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="filename">需要保存在文件夹中的文件名</param>
+        /// <param name="file_path">更新文件上传时的子目录</param>
+        /// <param name="filelist">文件</param>
+        /// <param name="subFolder">指定上传文件的目录</param>
+        private static void UploadFile(string filename, string file_path, FormFileCollection filelist, string subFolder)
+        {
+            var root = AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+            string targetPath = Path.Combine(root, "WebFiles", subFolder);
+            if (!string.IsNullOrEmpty(file_path) && file_path != ".\\")
+                targetPath = Path.Combine(targetPath, file_path);
+
+            // 没有这个目录的话建立一个
+            DirectoryInfo di = new DirectoryInfo(targetPath);
+            if (!di.Exists) di.Create();
+
+            using (FileStream fs = System.IO.File.Create(Path.Combine(targetPath, filename)))
+            {
+                // 复制文件
+                filelist[0].CopyToAsync(fs).GetAwaiter().GetResult();
+                // 清空缓冲区数据
+                fs.Flush();
+            }
         }
 
         [HttpPost("delete")]
@@ -169,6 +194,53 @@ namespace PMS.ServerInitial.Controllers
                 string full_path = Path.Combine(targetPath,filename);
                 if(System.IO.File.Exists(full_path))
                     System.IO.File.Delete(full_path);
+            }
+            catch (Exception ex)
+            {
+                result.State = 500;
+                result.ExceptionMessage = ex.Message;
+            }
+            return Ok(result);
+        }
+        [HttpPost("id_upload")]
+        [Authorize]
+        public IActionResult UploadIdCards(
+           [FromForm] IFormCollection formCollection,
+           [FromHeader] string file_name)
+        {
+            Result<long> result = new Result<long>();
+            try
+            {
+                FormFileCollection filelist = (FormFileCollection)formCollection.Files;
+                if (filelist.Count > 0)
+                {
+                    string subFolder = "SystemFiles";
+                    UploadFile(file_name, "", filelist, subFolder);
+                }
+            }
+            catch (Exception ex)
+            {
+                result.State = 500;
+                result.ExceptionMessage = ex.Message;
+            }
+            return Ok(result);
+        }
+
+        [HttpPost("issue_upload")]
+        [Authorize]
+        public IActionResult UploadIssueImage(
+           [FromForm] IFormCollection formCollection,
+           [FromHeader] string file_name)
+        {
+            Result<long> result = new Result<long>();
+            try
+            {
+                FormFileCollection filelist = (FormFileCollection)formCollection.Files;
+                if (filelist.Count > 0)
+                {
+                    string subFolder = "OrderFiles";
+                    UploadFile(file_name, "", filelist, subFolder);
+                }
             }
             catch (Exception ex)
             {

@@ -14,5 +14,8 @@ namespace PMS.Client.IDAL
         void UploadFile(string file, string save_path, Action<int> progress, Action<AsyncCompletedEventArgs> completed);
 
         string DeleteFile(string file_name);
+
+        void UploadIdCard(string file, string fileName);
+        void UploadIssueImg(string file, string fileName);
     }
 }

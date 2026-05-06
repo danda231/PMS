@@ -1,0 +1,115 @@
+﻿using Prism.Mvvm;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PMS.Client.PropertyModule.Models
+{
+    public class OwnerModel : BindableBase, INotifyDataErrorInfo
+    {
+        public int Index { get; set; }
+        public int OwnerId { get; set; }
+
+        private string _houseHolder;
+        public string HouseHolder { get => _houseHolder;
+            set
+            {
+                _houseHolder = value;
+                if (string.IsNullOrEmpty(HouseHolder))
+                {
+                    _errors.Add("UserName", new List<string> {"姓名不能为空"});
+                    ErrorsChanged?.Invoke(this, new DataErrorsChangedEventArgs("HouseHolder"));
+                }
+            }
+        }
+        private string _idNumber;
+
+        public string IdNumber
+        {
+            get { return _idNumber; }
+            set
+            {
+                _idNumber = value;
+                _errors.Remove(nameof(IdNumber));
+                if (string.IsNullOrEmpty(value))
+                {
+                    _errors.Add("IdNumber", new List<string> { "身份证不能为空" });
+                }
+                ErrorsChanged?.Invoke(this, new DataErrorsChangedEventArgs("IdNumber"));
+            }
+        }
+
+        private string _phone;
+
+        public string Phone
+        {
+            get { return _phone; }
+            set
+            {
+                _phone = value;
+                _errors.Remove(nameof(Phone));
+                if (string.IsNullOrEmpty(value))
+                {
+                    _errors.Add("Phone", new List<string> { "手机号不能为空" });
+                }
+                ErrorsChanged?.Invoke(this, new DataErrorsChangedEventArgs("Phone"));
+            }
+        }
+
+        public int Bid { get; set; }
+        public string Bname { get; set; }
+        public int Qid { get; set; }
+        public string Qname { get; set; }
+        private string _roomNum;
+
+        public string RoomNum
+        {
+            get { return _roomNum; }
+            set
+            {
+                _roomNum = value;
+                _errors.Remove(nameof(RoomNum));
+                if (string.IsNullOrEmpty(value))
+                {
+                    _errors.Add("RoomNum", new List<string> { "房间号不能为空" });
+                }
+                ErrorsChanged?.Invoke(this, new DataErrorsChangedEventArgs("RoomNum"));
+            }
+        }
+
+        public int Gender { get; set; }
+        private string _credentialImg1;
+        public string CredentialImg1
+        {
+            get => _credentialImg1;
+            set { SetProperty(ref _credentialImg1, value); }
+        }
+        private string _credentialImg2;
+        public string CredentialImg2
+        {
+            get => _credentialImg2;
+            set { SetProperty(ref _credentialImg2, value); }
+        }
+        public string Description { get; set; }
+        public int State { get; set; }
+        public DateTime ModifyTime { get; set; }
+        public int UserId { get; set; }
+        public string UserName { get; set; }
+
+        Dictionary<string, IList<string>> _errors = new Dictionary<string, IList<string>>();
+        public bool HasErrors => _errors.Count > 0;
+
+        public event EventHandler<DataErrorsChangedEventArgs>? ErrorsChanged;
+
+        public IEnumerable GetErrors(string? propertyName)
+        {
+            if(_errors.ContainsKey(propertyName))
+                return _errors[propertyName];
+            return null;
+        }
+    }
+}

@@ -19,3 +19,4 @@ E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\Comb
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\ScrollViewerStyle.baml
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\ViewTemplates.baml
 E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\CollectionStyles.baml
+E:\C#_code\PMS\PMS_Client\PMS.Client.Assets\obj\Debug\net8.0-windows\Styles\DatePickerStyle.baml

@@ -54,6 +54,18 @@ namespace PMS.Client.DAL
             this.UploadAsync(uri, file,progress,completed, datas);
         }
 
+        public void UploadIdCard(string file, string fileName)
+        {
+            string uri = "api/File/id_upload";
+            this.Upload(uri, file,fileName);
+        }
+
+        public void UploadIssueImg(string file, string fileName)
+        {
+            string uri = "api/File/issue_upload";
+            this.Upload(uri, file, fileName);
+        }
+
         private string GetFileMd5(string fileName)
         {
             try

@@ -14,9 +14,14 @@ namespace PMS.Client.Common
         public DelegateCommand<object> DeleteCommand { get; set; }
 
         IRegionManager _regionManager;
-        public PageViewModelBase(IRegionManager regionManager)
+        IEventAggregator _eventAggregator;
+        private IRegionManager regionManager;
+
+        public PageViewModelBase(IRegionManager regionManager,
+            IEventAggregator eventAggregator)
         {
             _regionManager = regionManager;
+            _eventAggregator = eventAggregator;
 
             CloseCommand = new DelegateCommand(DoClose);
 
@@ -24,6 +29,7 @@ namespace PMS.Client.Common
             ModifyCommand = new DelegateCommand<object>(DoModify);
             DeleteCommand = new DelegateCommand<object>(DoDelete);
         }
+
         private void DoClose()
         {
             //拿到主区域，从区域里移除对应的页面，根据页面的名称
@@ -53,6 +59,17 @@ namespace PMS.Client.Common
         public void OnNavigatedFrom(NavigationContext navigationContext)
         {
 
+        }
+
+        protected void BeginLoading(string tip = "正在加载....")
+        {
+            _eventAggregator.GetEvent<LoadingEvent>()
+                .Publish(tip);
+        }
+        protected void EndLoading()
+        {
+            _eventAggregator.GetEvent<LoadingEvent>()
+                .Publish("");
         }
 
     }

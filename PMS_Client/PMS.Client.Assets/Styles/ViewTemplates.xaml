@@ -22,7 +22,7 @@
 
             <Button Content="保存" Grid.Row="2" Height="30" Width="100"
                 HorizontalAlignment="Center" Foreground="White"
-                Style="{StaticResource NormalButtonStyle}"
+                Style="{DynamicResource NormalButtonStyle}"
                 Command="{Binding SaveCommand}">
                 <Button.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -39,7 +39,6 @@
                     VerticalAlignment="Top" HorizontalAlignment="Right"
                     WindowChrome.IsHitTestVisibleInChrome="True"
                     Command="ApplicationCommands.Close"/>
-
 
 
             <ContentPresenter Grid.Row="1"/>

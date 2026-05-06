@@ -36,6 +36,9 @@
         }
       },
       "PMS.Client.IDAL/1.0.0": {
+        "dependencies": {
+          "PMS.Client.Entities": "1.0.0"
+        },
         "runtime": {
           "PMS.Client.IDAL.dll": {
             "assemblyVersion": "1.0.0",

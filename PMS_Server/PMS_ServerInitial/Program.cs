@@ -66,6 +66,12 @@ namespace PMS.ServerInitial
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<IMenuService, MenuService>();
             services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<IBaseInfoService, BaseInfoService>();
+            services.AddScoped<IOwnerService, OwnerService>();
+            services.AddScoped<IFeeService, FeeService>();
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IFinanceService, FinanceService>();
+            services.AddScoped<IContractService, ContractService>();
         }
 
         private static void ConfigAuthentication(IServiceCollection services)
@@ -147,11 +153,7 @@ namespace PMS.ServerInitial
                         new string[]{}
                     }
                 });
-                
             });
-
-            
-
         }
     }
 }

@@ -126,6 +126,8 @@ namespace PMS.Client.Initial.ViewModels
                 // 将Entity => model
                 var user = _userService.Login(UserName, Password);
                 _globalValues.Token = user.Token;
+                _globalValues.UserId = user.EId;
+                _globalValues.UserName = user.UserName;
 
                 DialogParameters dps = new DialogParameters();
                 dps.Add("user", user);

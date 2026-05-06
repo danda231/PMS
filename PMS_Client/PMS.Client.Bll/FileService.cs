@@ -12,7 +12,7 @@ using System.Windows.Input;
 
 namespace PMS.Client.Bll
 {
-    public class FileService : ServiceBase,IFileService
+    public class FileService : ServiceBase, IFileService
     {
         IFileAccess _fileAccess;
         public FileService(IFileAccess fileAccess) 
@@ -51,6 +51,16 @@ namespace PMS.Client.Bll
         public void UploadFile(string file, string save_path, Action<int> progress, Action<AsyncCompletedEventArgs> completed)
         {
             _fileAccess.UploadFile(file, save_path, progress, completed);
+        }
+
+        public void UploadIdCard(string file, string fileName)
+        {
+            _fileAccess.UploadIdCard(file, fileName);
+        }
+
+        public void UploadIssueImg(string file, string fileName)
+        {
+            _fileAccess.UploadIssueImg(file, fileName);
         }
     }
 }

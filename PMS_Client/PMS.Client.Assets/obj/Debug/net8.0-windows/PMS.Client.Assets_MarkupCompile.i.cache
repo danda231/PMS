@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-7227776337
+821251184
 
 4-961539753
 1981124507420
-Styles\ButtonStyles.xaml;Styles\CalendarStyles.xaml;Styles\CollectionStyles.xaml;Styles\ComboBoxStyle.xaml;Styles\ScrollViewerStyle.xaml;Styles\TextBoxStyles.xaml;Styles\ViewTemplates.xaml;
+Styles\ButtonStyles.xaml;Styles\CalendarStyles.xaml;Styles\CollectionStyles.xaml;Styles\ComboBoxStyle.xaml;Styles\DatePickerStyle.xaml;Styles\ScrollViewerStyle.xaml;Styles\TextBoxStyles.xaml;Styles\ViewTemplates.xaml;
 
 False
 

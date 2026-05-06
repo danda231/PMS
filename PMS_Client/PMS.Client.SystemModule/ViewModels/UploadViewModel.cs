@@ -23,7 +23,8 @@ namespace PMS.Client.SystemModule.ViewModels
         IFileService _fileService;
 
         public UploadViewModel(IRegionManager regionManager, 
-            IFileService fileService) : base(regionManager)
+            IFileService fileService,
+            IEventAggregator eventAggregator) : base(regionManager, eventAggregator)
         {
             this.PageTitle = "更新文件上传";
             _fileService = fileService;

@@ -28,7 +28,7 @@ namespace PMS.Client.SystemModule.ViewModels
             IUserService userService,
             IRoleService roleService,
             IDialogService dialogService,
-            IEventAggregator eventAggregator) : base(regionManager)
+            IEventAggregator eventAggregator) : base(regionManager, eventAggregator)
         {
             PageTitle = "系统用户管理";
             _userService = userService;

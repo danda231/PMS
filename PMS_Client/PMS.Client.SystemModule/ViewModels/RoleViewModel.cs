@@ -57,7 +57,7 @@ namespace PMS.Client.SystemModule.ViewModels
             IRoleService roleService,
             IDialogService dialogService,
             IMenuService menuService,
-            IUserService userService) : base(regionManager)
+            IUserService userService) : base(regionManager, eventAggregator)
         {
             this.PageTitle = "角色权限组";
             _eventAggregator = eventAggregator;

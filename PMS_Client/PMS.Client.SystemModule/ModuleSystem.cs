@@ -18,6 +18,7 @@ namespace PMS.Client.SystemModule
             containerRegistry.RegisterForNavigation<UploadView>();
             containerRegistry.RegisterForNavigation<UserView>();
             containerRegistry.RegisterForNavigation<RoleView>();
+            containerRegistry.RegisterForNavigation<BaseInfoView>();
 
             // Dialog
             containerRegistry.RegisterDialog<ModifyMenuView, ModifyMenuViewModel>();
@@ -25,6 +26,7 @@ namespace PMS.Client.SystemModule
             containerRegistry.RegisterDialog<SelectRoleView, SelectRoleViewModel>();
             containerRegistry.RegisterDialog<ModifyRoleView, ModifyRoleViewModel>();
             containerRegistry.RegisterDialog<SelectUserView, SelectUserViewModel>();
+            containerRegistry.RegisterDialog<ModifyInfoView, ModifyInfoViewModel>();
 
         }
     }

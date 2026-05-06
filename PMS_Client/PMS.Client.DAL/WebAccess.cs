@@ -99,6 +99,19 @@ namespace PMS.Client.DAL
             }
         }
 
+        public void Upload(string uri, string file, string fileName)
+        {
+            using (WebClient client = new WebClient())
+            {
+                client.Headers.Add("Authorization", "Bearer " + _globalValues.Token);
+
+                client.Headers.Add("file_name", fileName);
+
+
+                client.UploadFile(new Uri(HostName + uri), file);
+            }
+        }
+
         public class ProgressableStreamContent : HttpContent
         {
             private const int defaultBufferSize = 4096;
